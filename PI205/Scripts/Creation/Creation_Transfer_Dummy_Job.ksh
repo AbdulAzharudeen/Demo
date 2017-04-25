@@ -1,6 +1,7 @@
+fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm  Dummy_Queue -da Dummy_Dest_Agent -dm  Dummy_Queue  -jn Dummy_Job -sd leave  -qmp false -dq $DestinationFolder $SourceFile
 fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm  Dummy_Queue -da Dummy_Dest_Agent -dm  Dummy_Queue  -jn Dummy_Job -sd leave  -qmp false -dq $DestinationFolder $SourceFile
-fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm  Dummy_Queue -da Dummy_Dest_Agent -dm  Dummy_Queue  -jn Dummy_Job -sd leave  -qmp false -dq $DestinationFolder $SourceFile
-fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm  Dummy_Queue -da Dummy_Dest_Agent -dm  Dummy_Queue  -jn Dummy_Job -sd leave -de overwrite $DestinationFolder $SourceFile
+fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm  Dummy_Queue -da Dummy_Dest_Agent -dm  Dummy_Queue  -jn Dummy_Job -sd leave -de overwrite $DestinationFolder $SourceFile
+fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm Dummy_Queue -da Dummy_Dest_Agent -dm Dummy_Queue -jn Dummy_Job -sd leave -de overwrite -df /home/mqm/mf.txt mq.txt
 fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm Dummy_Queue -da Dummy_Dest_Agent -dm Dummy_Queue -jn Dummy_Job -sd leave -de overwrite -df /home/mqm/mf.txt mq.txt
 fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm Dummy_Queue -da Dummy_Dest_Agent -dm Dummy_Queue -jn Dummy_Job -sd leave -de overwrite -df /home/mqm/mf.txt mq.txt
-fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm Dummy_Queue -da Dummy_Dest_Agent -dm Dummy_Queue -jn Dummy_Job -sd leave -de overwrite -df /home/mqm/mf.txt mq.txt
+fteCreateTransfer -p Dummy_Queue -sa Dummy_Src_Agent -sm Dummy_Queue -da Dummy_Dest_Agent -dm Dummy_Queue -jn Dummy_Job -sd leave -de overwrite -presource executable:pres.ksh -ss 2017-04-24T03:00 -tb Source -oi days -of 1 -df /home/mqm/mf.txt mq.txt
