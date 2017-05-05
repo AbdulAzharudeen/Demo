@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><request version="6.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FileTransfer.xsd">
+  <managedTransfer>
+    <originator>
+      <hostName>10.150.21.41</hostName>
+      <userID>mqm</userID>
+    </originator>
+    <sourceAgent QMgr="Dummy_Queue" agent="Dummy_Src_Agent"/>
+    <destinationAgent QMgr="Dummy_Queue" agent="Dummy_Dest_Agent"/>
+    <transferSet>
+<presource>	 
+        <command name="pres.ksh" retryCount="0" retryWait="0" successRC="0" type="AntScript"/>
+    </presource>  
+       <item checksumMethod="MD5" mode="binary">
+        <source disposition="leave" recursive="false" type="queue">
+          <queue>Dummy_source_queue</queue>
+        </source>
+        <destination exist="$(Destination_Existance)" type="directory">
+          <file>/home/mqm/</file>
+        </destination>
+      </item>
+    </transferSet>
+    <job>
+      <name>MFT_Monitor</name>
+    </job>
+  </managedTransfer>
+</request>
