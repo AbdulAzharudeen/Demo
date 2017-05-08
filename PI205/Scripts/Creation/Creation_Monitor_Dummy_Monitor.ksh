@@ -1,5 +1,6 @@
-fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -md /home/mqm/m.txt -mn Dummy_Monitor -mt Dummy_Task$Type_Monitor_$Monitor_Name_Task.xml -pi 1 -pu 2 -tr 
-fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -md /home/mqm/m.txt -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr 
+fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -md /home/mqm/m.txt -mn Dummy_Monitor -mt Dummy_Task$Type_Monitor_$Monitor_Name_Task.xml -pi 1 -pu 2 -tr 
+fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -md /home/mqm/m.txt -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr 
+fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -mq Dummy_source_queue -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr 
 fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -mq Dummy_source_queue -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr 
-fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -mq Dummy_source_queue -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr 
-fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -md /home/mqm/m.txt -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr 
+fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -md /home/mqm/m.txt -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr 
+fteCreateMonitor -ma Dummy_Src_Agent -mm Dummy_Queue -md /home/mqm/m.txt -mn Dummy_Monitor -mt /home/mqm/Creation_Monitor_Dummy_Monitor_Task.xml -pi 1 -pu 2 -tr nofilesizechanged

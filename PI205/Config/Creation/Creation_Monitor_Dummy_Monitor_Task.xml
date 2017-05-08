@@ -7,15 +7,12 @@
     <sourceAgent QMgr="Dummy_Queue" agent="Dummy_Src_Agent"/>
     <destinationAgent QMgr="Dummy_Queue" agent="Dummy_Dest_Agent"/>
     <transferSet>
-<preSourceCall>	 
-        <command name="pres.ksh" retryCount="0" retryWait="0" successRC="0" type="AntScript"/>
-    </preSourceCall>  
        <item checksumMethod="MD5" mode="binary">
         <source disposition="leave" recursive="false">
           <file>/home/mqm/m.txt</file>
         </source>
-        <destination exist="$(Destination_Existance)" type="file">
-          <file>/home/mqm/</file>
+        <destination  type="queue">
+          <queue setMqProps="true">/home/mqm/</queue>
         </destination>
       </item>
     </transferSet>
