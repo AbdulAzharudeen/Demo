@@ -15,7 +15,7 @@
           <file>/bsg/UDS90-64B/live/volatile/data/sam/live/stores/lateload/${fileName}</file>
         </source>
         <destination exist="error" type="directory">
-          <file>D:SAMdataimportlateloadJob_Name=MFT_BSG_PI197_LATELOAD_SAM</file>
+          <file>D:\SAM\data\import\lateload\</file>
         </destination>
       </item>
     </transferSet>
