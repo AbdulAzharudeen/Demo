@@ -20,7 +20,7 @@
       </item>
     </transferSet>
     <job>
-      <name>MFT_Monitor</name>
+      <name>MFT_BSG_PI197_LATELOAD_SAM</name>
     </job>
   </managedTransfer>
 </request>
