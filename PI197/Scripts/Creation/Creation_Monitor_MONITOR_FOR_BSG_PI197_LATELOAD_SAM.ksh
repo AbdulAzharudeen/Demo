@@ -1,2 +1,0 @@
-fteCreateMonitor -ma BSG_CLIENT_AGENT -mm QDD1MFT1 -md /bsg/UDS90-64B/live/volatile/data/sam/live/stores/lateload/ -mn MONITOR_FOR_BSG_PI197_LATELOAD_SAM -mt TBDCreation_Monitor_MONITOR_FOR_BSG_PI197_LATELOAD_SAM_Task.xml -pi 2 -pu MINUTES -tr "noSizeChange=2,artprm.STORENO.DAY_*.sem"
-fteCreateMonitor -ma BSG_CLIENT_AGENT -mm QDD1MFT1 -md /bsg/UDS90-64B/live/volatile/data/sam/live/stores/lateload/ -mn MONITOR_FOR_BSG_PI197_LATELOAD_SAM -mt TBDCreation_Monitor_MONITOR_FOR_BSG_PI197_LATELOAD_SAM_Task.xml -pi 2 -pu MINUTES -tr "noSizeChange=2,artprm.STORENO.DAY_*.sem"
