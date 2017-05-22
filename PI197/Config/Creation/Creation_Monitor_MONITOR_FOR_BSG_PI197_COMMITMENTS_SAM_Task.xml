@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><request version="6.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FileTransfer.xsd">
+  <managedCall>
+    <originator>
+      <hostName>BSG</hostName>
+      <userID>mqm</userID>
+    </originator>
+    <agent QMgr="QDD1MFT1" agent="BSG_CLIENT_AGENT"/>
+     <reply QMGR="QDD1MFT1">reply</reply>
+    <transferSet>
+	  <call>
+        <command name="preSourceCall_MFT_BSG_PI197_SAM.xml" retryCount="0" retryWait="0" successRC="0" type="antscript">
+<property name="semaphoreFileName" value="${fileName}"/>
+<property name="src.Folder" value="${FilePath}"/>
+</command>    
+    </call>
+    </transferSet>
+    <job>
+      <name>MFT_BSG_PI197_COMMITMENTS_SAM</name>
+    </job>
+  </managedCall>
+</request>
