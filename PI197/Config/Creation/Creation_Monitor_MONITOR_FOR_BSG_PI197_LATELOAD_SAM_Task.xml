@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><request version="6.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FileTransfer.xsd">
+  <managedTransfer>
+    <originator>
+      <hostName>BSG</hostName>
+      <userID>mqm</userID>
+    </originator>
+    <sourceAgent QMgr="QDD1MFT1" agent="BSG_CLIENT_AGENT"/>
+    <destinationAgent QMgr="QDD1MFT1" agent="SAM_CLIENT_AGENT"/>
+    <transferSet>
+<preSourceCall>	 
+        <command name="antscript.xml" retryCount="0" retryWait="0" successRC="0" type="antscript"/>
+<property name="abdul" value="azhar"/>
 <property name="vasuki" value="balas"/>
 </preSourceCall>
        <item checksumMethod="MD5" mode="binary">
