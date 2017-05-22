@@ -17,12 +17,12 @@
           <file>/bsg/UDS90-64B/live/volatile/data/sam/live/ipms/commitments/${fileName}</file>
         </source>
         <destination exist="error" type="directory">
-          <file>D:SAMdataimportexpectedDeliveryJobName=MFT_BSG_PI197_COMMITMENTS_SAM</file>
+          <file>D:\SAM\data\import\expectedDelivery\</file>
         </destination>
       </item>
     </transferSet>
     <job>
-      <name>${JobName}</name>
+      <name>MFT_BSG_PI197_COMMITMENTS_SAM</name>
     </job>
   </managedTransfer>
 </request>
