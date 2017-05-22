@@ -1,0 +1,1 @@
+fteCreateMonitor -ma BSG_CLIENT_AGENT -mm QDD1MFT1 -md /bsg/UDS90-64B/live/volatile/data/sam/live/ipms/commitments/ -mn MONITOR_FOR_BSG_PI197_COMMITMENTS_SAM -mt /source/bsg/monitor/Creation_Monitor_MONITOR_FOR_BSG_PI197_COMMITMENTS_SAM_Task.xml -pi 1 -pu minutes -tr noSizeChange=1,*.sem
