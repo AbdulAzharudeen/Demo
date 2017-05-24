@@ -2,7 +2,7 @@
    <project name="Hello World Project" default="info">
    
    <target name="info">
-      <echo>Hell0- Welcome to ${app.name}</echo>
+      <echo>Hello- Welcome to ${app.name}</echo>
    </target>
    
 </project>
